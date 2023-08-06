@@ -5,6 +5,7 @@ import time
 import requests
 import tiktoken
 import numpy as np
+import os
 
 # Cost per token for the respective models (hypothetical costs, check OpenAI's pricing page)
 TOKEN_COST_GPT_3_5 = 0.002
